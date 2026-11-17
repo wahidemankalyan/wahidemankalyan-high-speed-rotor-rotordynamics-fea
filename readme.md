@@ -30,9 +30,7 @@ ho = 7850\text{ kg/m}^3$, $E = 200\text{ GPa}$, $\nu = 0.3$) |
 | **Strength Limits** | Tensile Yield Strength: **250 MPa** · Tensile Ultimate Strength (UTS): **460 MPa** |
 | **Rotordynamics Solver** | Damped Modal Analysis, Coriolis Effect **ON** (Stationary Reference Frame), Max Modes: **6** |
 
-| 2D SolidWorks Engineering Drawing | ANSYS 3D Rotor Geometry | FEA Discretized Mesh |
-| :---: | :---: | :---: |
-|  |  |  |
+| ![2D CAD](01_cad_drawing.png) | ![ANSYS Geometry](02_ansys_geometry.png) | ![FEA Mesh](03_fea_mesh.png) |
 
 ---
 
@@ -69,9 +67,7 @@ Increasing bearing stiffness shifts the first flexural/rigid-body critical speed
 | $30{,}000$ | $351.73$ | Exceeds Yield ($250\text{ MPa}$), below UTS ($460\text{ MPa}$) |
 | $40{,}000$ | $625.30$ | **Structural Failure** (exceeds $460\text{ MPa}$ UTS) |
 
-| Campbell Diagram ($k = 10^9\text{ N/m}$) | Modal Deformation Shape | Equivalent Stress at 40,000 rpm |
-| :---: | :---: | :---: |
-|  |  |  |
+| ![Campbell Diagram](04_campbell_diagram_k1e9.png) | ![Modal Deformation](05_modal_deformation.png) | ![Von Mises Stress](06_von_mises_stress_40k_rpm.png) |
 
 ---
 
